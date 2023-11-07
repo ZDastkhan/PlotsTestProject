@@ -54,7 +54,7 @@ namespace SimplePlots
             this.pnlMain.Controls.Add(this.zedGraphControl);
             this.pnlMain.Location = new System.Drawing.Point(13, 66);
             this.pnlMain.Name = "pnlMain";
-            this.pnlMain.Size = new System.Drawing.Size(775, 372);
+            this.pnlMain.Size = new System.Drawing.Size(759, 566);
             this.pnlMain.TabIndex = 1;
             this.pnlMain.SizeChanged += new System.EventHandler(this.pnlMain_SizeChanged);
             // 
@@ -72,7 +72,7 @@ namespace SimplePlots
             this.zedGraphControl.ScrollMinX = 0D;
             this.zedGraphControl.ScrollMinY = 0D;
             this.zedGraphControl.ScrollMinY2 = 0D;
-            this.zedGraphControl.Size = new System.Drawing.Size(769, 366);
+            this.zedGraphControl.Size = new System.Drawing.Size(753, 560);
             this.zedGraphControl.TabIndex = 0;
             this.zedGraphControl.UseExtendedPrintDialog = true;
             this.zedGraphControl.Resize += new System.EventHandler(this.zedGraphControl_Resize);
@@ -81,7 +81,7 @@ namespace SimplePlots
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(784, 644);
             this.Controls.Add(this.pnlMain);
             this.Controls.Add(this.btnCreateRandom);
             this.Name = "MainForm";
